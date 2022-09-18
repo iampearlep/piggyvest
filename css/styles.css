@@ -263,10 +263,11 @@ font-weight: 500;
   font-size: 2.5rem;
 }
 .start-saving p {
- font-size: 1.1rem;
+ font-size: 1.05rem;
  margin: 20px 0 70px;
  letter-spacing: 0.2px;
  line-height: 1.4;
+ color: #353535;
 }
 .start-saving a {
    padding: 17px 25px;
@@ -494,7 +495,7 @@ font-weight: 500;
     margin-top: 300px;
   }
   .security-section {
-    margin: 150px 30px;
+    margin: 150px 30px 100px;
   }
   .security-container {
     display: flex;
@@ -511,5 +512,30 @@ font-weight: 500;
   .security-img img {
     margin-left: 35%;
     margin-top: 0;
+  }
+  .savings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  .start-saving h2 {
+    font-size: 1.75rem;
+  }
+  .savings {
+    margin: 0;
+    padding: 30px 20px;
+  }
+  .piggy {
+    margin: 50px 0 0;
+  }
+  .goal {
+    margin: 0 !important;
+  }
+  .save{
+    display: flex;
+    justify-content: center;
   }
 }
