@@ -8,6 +8,7 @@ body {
     color: #353535;
     font-family: 'DM Sans', sans-serif;
     position: relative;
+    overflow-x: hidden;
   }
   .bg {
     height: 700px;
