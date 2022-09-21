@@ -736,7 +736,7 @@ width: 58%;
   }
   .saver {
     width: 100%;
-    padding: 40px 30px;
+    padding: 70px 20px;
     text-align: center;
   }
   .saver h2 {
@@ -745,6 +745,7 @@ width: 58%;
   }
   .saver p {
     width: 100%;
+    font-size: 0.975rem;
   }
   .meet {
     justify-content: center;
