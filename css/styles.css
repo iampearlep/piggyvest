@@ -874,8 +874,8 @@ width: 58%;
     font-size: 0.875rem;
   }
   .marquee {
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin-left: -3%;
     margin-top: 0;
   }
   .box {
