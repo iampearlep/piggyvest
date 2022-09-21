@@ -390,7 +390,7 @@ font-weight: 500;
 }
 /* Saver section */
 .saver-section {
-  margin: 100px 0 50px;
+  margin: 100px 0 20px;
 }
 .saver-container {
  display: flex;
@@ -433,7 +433,7 @@ width: 58%;
 }
 /* Testimonial Section */
 .testimonial-section {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .testimonial-container {
   display: flex;
@@ -514,8 +514,36 @@ width: 58%;
     font-size: 0.65rem;
     margin-left: 160px;
   }
-
-  
+  /* Feature Section */
+  .feature-section {
+    margin: 100px 0;
+    background-color: #f9f9f9;
+    color: #111;
+    height: 150px;
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .feature h3 {
+    font-size: 2.25rem;
+    letter-spacing: -1px;
+  }
+  .feature-img {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .feature-img img {
+    width: 190px;
+  }
+  .feature1 {
+    width: 150px !important;
+  }
 
 
 
@@ -810,4 +838,23 @@ width: 58%;
   .box {
     width: 90%;
   }
+  /* Feature Section */
+  .feature-section {
+    height: 350px;
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .feature h3 {
+    font-size: 1.75rem;
+  }
+  .feature-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
