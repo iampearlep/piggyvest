@@ -10,6 +10,9 @@ body {
     position: relative;
     overflow-x: hidden;
   }
+  div {
+    border: 3px solid red;
+  }
   .bg {
     height: 700px;
     position: absolute;
@@ -873,8 +876,8 @@ width: 58%;
     font-size: 0.875rem;
   }
   .marquee {
-    width: 100%;
-    margin-left: -3%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 0;
   }
   .box {
