@@ -388,11 +388,109 @@ font-weight: 500;
   margin-left: 130px;
   margin-top: 30px;
 }
+/* Saver section */
+.saver-section {
+  margin: 100px 0;
+}
+.saver-container {
+ display: flex;
+  flex-direction: row;
+  background-color: #0D60D8;
+  color: #fff;
+  height: 485px;
+}
+.saver {
+  width: 80%;
+  padding: 80px 60px;
+}
+.saver h2 {
+  font-size: 3.25rem;
+  width: 70%;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+.saver p {
+  width: 78%;
+  line-height: 1.7;
+  font-size: 1.15rem;
+  margin-bottom: 50px;
+}
+.meet {
+  display: flex;
+}
+.meet a {
+ color: #fff;
+ font-size: 1.1rem;
+ font-weight: 600;
+ margin: 10px 0 0 10px;
+}
+.saver-img {
+width: 58%;
+}
+.saver-img img {
+ width: 100%;
+ background-size: cover;
+}
 
 
+/* Scrolling Testimonial 
+.marquee {
+    width: 40vw;
+    height: 60vh;
+    background-color: #fff;
+    color: #353535;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 150px;
+    position: relative;
+}
 
+.marquee:before, .marquee:after {
+  position: absolute;
+  width: 80vh;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.marquee:before {
+  background: linear-gradient(#fff 5%, transparent 20%);
+}
+.marquee:after {
+  background: linear-gradient( #fff 5%, transparent 20%);
+}
+.marquee-content{
+  display: block;
+  animation: scrolling 32s linear infinite;
+}
+@keyframes scrolling {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-139vh);}
+}
+  .box{
+    width: 400px;
+    height: auto;
+    background-color: rgb(243, 243, 243);
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 30px;
+    flex-shrink: 0;
+  }
+  .box h5 {
+    font-size: 0.875rem;
+    padding: 8px 0;
+  }
+  .box p {
+    font-size: 0.875rem;
+    letter-spacing: .2px;
+    line-height: 1.4;
+  }
+  .box span {
+    font-size: 0.65rem;
+    margin-left: 160px;
+  } */
 
-
+  
 
 
 
@@ -630,5 +728,33 @@ font-weight: 500;
   }
   .invest-dot {
     display: none;
+  }
+  /* Saver section */
+  .saver-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .saver {
+    width: 100%;
+    padding: 40px 30px;
+    text-align: center;
+  }
+  .saver h2 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .saver p {
+    width: 100%;
+  }
+  .meet {
+    justify-content: center;
+    text-align: center;
+  }
+  .saver-img {
+    width: 100%;
+  }
+  .saver-img img {
+    width: 100%;
+    height: auto;
   }
 }
