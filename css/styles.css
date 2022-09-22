@@ -603,7 +603,7 @@ width: 58%;
 
 
   /* Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .bg {
     display: none;
   }
@@ -628,6 +628,7 @@ width: 58%;
       text-align: center;
       display: block;
       transition: all 0.3s ease;
+      z-index: 1;
     }
   
     #click:checked ~ ul {
@@ -913,6 +914,340 @@ width: 58%;
   }
   .footer-logo img{
     width: 45% ;
+    margin: 20px 0;
+  }
+  .legal {
+    margin-top: 30px;
+    margin-left: -48% !important;
+  }
+  .social-container {
+    text-align: left;
+    margin-top: 30px;
+  }
+  .copyright-container {
+    width: 100%;
+    margin: 40px auto;
+  }
+}
+
+
+/* Tablet Devices */
+@media (min-width: 641px) and (max-width: 979px) {
+  .bg {
+    display: none;
+  }
+    nav .logo {
+      margin-left: -50px;
+      width: 30%;
+    }
+    nav .menu-btn i {
+      display: block;
+      color: #000;
+    }
+    #click:checked ~ .menu-btn i:before {
+      content: "\f00d";
+    }
+    nav ul {
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      background: #fff;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+      z-index: 1;
+    }
+  
+    #click:checked ~ ul {
+      right: 0;
+    }
+    nav ul li {
+      width: 100%;
+      margin: 40px 0;
+    }
+    #nav-btn {
+        display: block;
+        width: 50%;
+      margin: 0 auto;
+    }
+    #nav-btn .login {
+        margin: 0;
+    }
+    #nav-btn .register {
+        margin: 0;
+    }
+    nav ul li a {
+      width: 100%;
+      margin-right: -100%;
+      display: block;
+      font-size: 0.975rem;
+    }
+    #click:checked ~ #order ul li a {
+      margin-right: 0;
+    }
+    nav ul ul {
+        width: 350px;
+        left: 40px;
+        height: auto;
+    }
+    nav ul li:hover > ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+    nav ul li:hover > ul a {
+      flex: 0 0 0;
+      padding: 5px 20px 10px;
+  }
+  /*Hero section*/
+  .hero-section {
+    margin: 50px 20px;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-item {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .left-item h1 {
+    font-size: 3.5rem;
+    width: 80%;
+    margin-left: 12%;
+  }
+  .left-item p {
+    width: 75%;
+    margin-left: 15%;
+  }
+  .download-btn {
+    margin-bottom: 50px;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .rect {
+    width: 55%;
+  }
+  .hero {
+   margin-left: -4.35rem;
+    width: 50%;
+  }
+  .card1 {
+    margin-left: -420px;
+    margin-top: 180px;
+    width: 30%;
+  }
+  .card2 {
+    margin-left: 250px;
+    width: 30%;
+  }
+  .cross{
+   margin-left: -450px;
+  }
+  .circle {
+    margin-left: 300px;
+    margin-top: 180px;
+  }
+  /* Security section */
+  .security-section {
+    margin: 150px 30px 100px;
+  }
+  .security-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0;
+  }
+  .security {
+    text-align: center;
+  }
+  .security h2 {
+    font-size: 1.875rem;
+  }
+  .security-img img {
+    margin-left: 40%;
+    margin-top: 0;
+    width: 20%;
+  }
+  /*Savings section*/
+  .savings-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+  .start-saving {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .start-saving h2 {
+    font-size: 2rem;
+    width: 30%;
+    margin-left: 35%;
+  }
+  .start-saving p {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .savings {
+    margin: 0;
+    padding: 30px 20px;
+  }
+  .piggy {
+    margin: 50px 0 0;
+  }
+  .goal {
+    margin: 0 !important;
+  }
+  .save{
+    display: flex;
+    justify-content: center;
+  }
+  /*Invest section */
+  .invest-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  .invest {
+    margin: 70px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+  .tag {
+   margin-left: 33%;
+  }
+  .invest h2 {
+    font-size: 2.5rem;
+    color: #111;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+  .invest p {
+    width: 62%;
+    margin-left: 20%;
+  }
+  .invest-img {
+    width: 100%;
+  }
+  .invest-img img {
+   width: 50%;
+   margin-top: 0;
+   margin-left: 25%;
+  }
+  .invest-circle {
+   display: none;
+  }
+  .invest-dot {
+    display: none;
+  }
+  /* Saver section */
+  .saver-section {
+    margin: 70px 0 20px;
+  }
+  .saver-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .saver {
+    width: 100%;
+    padding: 70px 20px;
+    text-align: center;
+  }
+  .saver h2 {
+    font-size: 2.5rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .saver p {
+    width: 59%;
+    font-size: 0.975rem;
+    margin-left: 20%;
+  }
+  .meet {
+    justify-content: center;
+    text-align: center;
+  }
+  .saver-img {
+    width: 100%;
+  }
+  .saver-img img {
+    width: 100%;
+    height: auto;
+  }
+  .testimonial-section {
+    margin: 600px 0 100px;
+  }
+  .testimonial-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .testimonial {
+    width: 100%;
+    text-align: center;
+  }
+  .testimonial h3 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .testimonial p {
+    width: 50%;
+    font-size: 0.875rem;
+    margin-left: 25%;
+  }
+  .marquee {
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 0;
+  }
+  .box {
+    width: 90%;
+  }
+  /* Feature Section */
+  .feature-section {
+    height: 250px;
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .feature h3 {
+    font-size: 1.875rem;
+    margin-top: 20px;
+  }
+  .feature-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* Footer */
+  footer {
+    padding: 20px;
+  }
+  .link-container {
+    display: flex;
+ flex-wrap: wrap;
+    gap: 0;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-logo img{
+    width: 25% ;
     margin: 20px 0;
   }
   .legal {
