@@ -603,7 +603,7 @@ width: 58%;
 
 
   /* Mobile Devices */
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .bg {
     display: none;
   }
@@ -714,13 +714,13 @@ width: 58%;
   }
   .rect {
     width: 90%;
-    height: 500px;
+    height: auto;
     margin-left: 3.75rem;
   }
   .hero {
     margin-left: -1.875rem;
-    margin-top: 16%;
-    width: 78%;
+    margin-top: 20px;
+    width: 70%;
   }
   .card1 {
     margin-left: -200px;
@@ -733,17 +733,16 @@ width: 58%;
     width: 55%;
   }
   .cross{
-    margin-left: -280px;
-    margin-top: 20px;
+    margin-left: -240px;
+    margin-top: 0;
   }
   .circle {
-  /*  margin-left: 250px;
-    margin-top: 140px; */
-    display: block;
+    margin-left: 250px;
+    margin-top: 140px; 
   }
   .dot {
-    margin-left: -310px;
-    margin-top: 300px;
+    margin-left: -280px;
+    margin-top: 280px;
   }
   /* Security section */
   .security-section {
@@ -930,7 +929,74 @@ width: 58%;
     margin: 40px auto;
   }
 }
-
+@media (min-width: 390px) and (max-width: 640px) {
+   /*Hero section*/
+   .hero-section {
+    margin: 50px 20px;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-item {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .left-item h1 {
+    font-size: 2.875rem;
+    width: 100%;
+  }
+  .left-item p {
+    width: 100%;
+  }
+  .download-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 60px 30px;
+  }
+  .download {
+    padding: 15px 8px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .download:last-child {
+    margin-left: 10%;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .rect {
+    width: 80%;
+   height: auto;
+    margin-left: 3.75rem;
+  }
+  .hero {
+    margin-left: -1.875rem;
+    margin-top: 7%;
+    width: 65%;
+  }
+.card1 {
+    width: 35%;
+  }
+  .card2 {
+    width: 35%;
+    margin-top: 300px;
+  }
+  .cross{
+    margin-top: 0;
+  } 
+  .circle {
+  /*  margin-left: 250px;
+    margin-top: 140px; */
+   display: none;
+  }
+}
 
 /* Tablet Devices */
 @media (min-width: 641px) and (max-width: 979px) {
@@ -1053,7 +1119,7 @@ width: 58%;
    margin-left: -450px;
   }
   .circle {
-    margin-left: 300px;
+    margin-left: 240px;
     margin-top: 180px;
   }
   /* Security section */
