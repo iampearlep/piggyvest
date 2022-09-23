@@ -737,8 +737,9 @@ width: 58%;
     margin-top: 20px;
   }
   .circle {
-    margin-left: 250px;
-    margin-top: 140px;
+  /*  margin-left: 250px;
+    margin-top: 140px; */
+    display: block;
   }
   .dot {
     margin-left: -310px;
