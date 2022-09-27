@@ -649,7 +649,7 @@ width: 58%;
       display: block;
       font-size: 0.975rem;
     }
-    #click:checked ~ #order ul li a {
+    #click:checked ~ ul li a {
       margin-right: 0;
     }
     nav ul ul {
