@@ -596,12 +596,6 @@ width: 58%;
     line-height: 1.7;
     margin-bottom: 20px;
   }
-
-
-
-
-
-
   /* Mobile Devices */
 @media (max-width: 600px) {
   .bg {
@@ -1329,4 +1323,21 @@ width: 58%;
     width: 100%;
     margin: 40px auto;
   }
+}
+
+/* Login Page */
+.login-section {
+  background-color: #062963;
+  color: #111;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+/* Register Page */
+.register-section {
+  background-color: #062963;
+  color: #111;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
