@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt make a sticky navbar and a marquee(scrolling testimonials).
+I learned how to create a sticky navbar and a marquee(scrolling testimonials).
 
 ## Author
 
